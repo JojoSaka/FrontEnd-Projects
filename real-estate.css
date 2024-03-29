@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('Images/livingroom.png');
+    width: 100vw;
+    height: 100vh;
+    padding: 7rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .left-block {
+    max-width: 520px;
+}
+
+.left-block .left h3 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5rem 0;
+}
+
+.left .p1 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 4rem;
+}
+
+.left .p2 {
+    font-size: 30px;
+    color: rgb(0, 183, 255);
+}
+
+header .input-info {
+    position: absolute;
+    max-width: 400px;
+    right: 8rem;
+    top: 8rem;
+    background-color: rgb(214, 207, 207);
+}
+
+.input-info h3 {
+    font-size: 35px;
+    font-weight: 300;
+    padding: 2rem 0;
+    margin: 0 2rem;
+}
+
+.right-block {
+    padding: 2rem;
+}
+
+.right-block h4{
+    font-size: 20.75px;
+    padding: 1rem 0;
+}
+
+.right-block input {
+    width: 300px;
+    height: 45px;
+    border: transparent;
+    border-radius: 25px;
+}
+
+.right-block button {
+    border: none;
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 2rem 0;
+    background-color: rgb(0, 183, 255);
+}
+
+.right-block button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.key_benefits h2 {
+    background-color: rgb(203, 202, 202);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.short-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 170px;
+}
+
+.short-info .Conversions{
+    display: inline-block;
+}
+
+.Conversions figure {
+    display: flex;
+    justify-content: center;
+}
+
+.Conversions img{
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+
+.Conversions p {
+    font-size: 18px;
+    margin: 0 3rem;
+    color: #979292;
+    max-width: 200px;
+    text-align: center;
+}
+
+.location {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('Images/dark.png');
+    opacity: 0.8;
+}
+
+.location .address-block {
+    display: inline-block;
+}
+
+.address-block span {
+    font-size: 70px;
+    position: absolute;
+    border: #000 solid 2px;
+    display: inline;
+    color: rgb(0, 183, 255);
+    margin: 7rem 20rem;
+}
+
+.address-block address {
+    position: absolute;
+    font-size: 23px;
+    border: #000 solid 2px;
+    display: inline-block;
+    color: #ffffff;
+    max-width: 10px;
+    margin: 5rem 28rem;
+}
+
+.location .text {
+    margin: 2rem 20rem;
+    display: inline-block;
+    border: #000 solid 2px;
+    max-width: 410px;
+}
+
+.text h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(0, 183, 255);
+    margin: 1rem 0;
+}
+
+.text p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 7rem 0;
+}
+
+.image1 h2 {
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 300px;
+    color: rgb(98, 90, 90);
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 5rem 0;
+}
+
+.details h3 {
+    font-size: 25px;
+    margin: 2rem 0;
+}
+
+.details ul li{
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.details ul li:last-child {
+    list-style-type: none;
+}
+
+.image2 img {
+    margin-left: 4rem;
+}
+
+.image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 7rem 0;
+}
+
+.details2 h3 {
+    font-size: 25px;
+    margin: 2rem 0;
+}
+
+.details2 ul li{
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.search {
+    height: 400px;
+    background-image: url('Images/dark.png');
+    opacity: 0.8;
+}
+
+.searchbox h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.searchbox button {
+    position: absolute;
+    border: none;
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(0, 183, 255);
+    margin: -70px 690px;
+}
+
+.searchbox button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.our-agents h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.agents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.client-details {
+    display: inline-block;
+}
+
+.client-details figcaption {
+    text-align: center;
+    font-size: 18.65px;
+    margin: 1rem 0;
+}
+
+.client-details p {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 16.45px;
+}
+
+.agents:nth-child(2) img {
+    border-radius: 50%;
+}
+
+.feedback {
+    height: 400px;
+    background-image: url('Images/dark.png');
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimony {
+    max-width: 900px;
+    display: flex;
+    flex-flow: nowrap;
+    gap: 50px;
+}
+
+.quote q {
+    max-width: 300px;
+    font-size: 30px;
+    margin: 4rem 0;
+}
+
+.feedback q{
+    color: #ffffff;
+}
+
+.quote p {
+    font-size: 25px;
+    margin: 4rem 0;
+    color: #ffffff;
+}
